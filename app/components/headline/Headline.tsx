@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import styled from 'styled-components'
-import SilvanaPhoto from '../../../public/silvana-headline.png'
+import SilvanaPhoto from '../../../public/silvana-headline-final.png'
 import SilvanaLogo from '../../../public/logo-silvana.png'
 import { Button } from '../global/Button'
 
@@ -32,16 +32,24 @@ const Container = styled.section`
     align-items: center;
 `
 const Img = styled(Image)`
-    width: 450px;
-    height: 511px;
+    width: 550px;
+    height: 491px;
+    position: relative;
+    top: 40px;
+    left: 30px;
+    z-index: -1;
     @media(max-width: 740px){
+        top: 20px;
+        left: 0px;
         width: 350px;
-        height: 398px;
+        height: 312.5px;
     }
 `
 
 const Description = styled.div`
     max-width: 430px;
+    position: relative;
+    right: 30px;
     
     h2 {
         font-size: 18px;
@@ -53,8 +61,8 @@ const Description = styled.div`
     }
     @media(max-width: 740px){
         text-align: center;
-        position: relative;
-        bottom: 70px;
+        bottom: 30px;
+        right: 0px;
     }
 `
 
