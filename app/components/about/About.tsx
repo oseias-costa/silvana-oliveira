@@ -17,6 +17,7 @@ export default function About() {
                 <p>SILVANA OLIVEIRA</p>
                 <p>autodidata, se dedica a pintura há mais 30 anos, em 2006 realizou um grande sonho de ter a própria galeria de artes e a escola de pintura onde ensina alunos de todas as idades a se descobrirem nesse fascinante mundo das artes.</p>
                 <p>em 2012 teve a oportunidade de expor num dos museus mais famosos do mundo, no carrosel do louvre, na frança. também representou seu estado no xvi circuito internacional de arte brasileira que aconteceu na áustria, espanha e Portugal. participou de outras exposições de destaque em berlim (alemanha), madri, barcelona (espanha), toulouse (frança), roma (Itália), Nova Iorque (EUA), montemor-0-novo e lisboa (Portugal) onde recebeu medalha de ouro.</p>
+                <p>Silvana gosta do Impressionismo e da liberdade que a técnica de pintar com espátula proporciona ao fazer trabalhos mais gestuais com traços soltos, camadas grossas de tintas, contrastando luz e sombra provocam uma sensação de naturalidade.</p>
             </Description>
         </Artist>
         <p className='subtitle'>conheça algumas Obras da artista</p>
@@ -68,6 +69,11 @@ const Description = styled.div`
 
     p:nth-child(3){
         font-size: 10pt;
+    }
+
+    p:nth-child(4){
+        font-size: 10pt;
+        padding-top: 15px;
     }
 
     @media(max-width: 740px){

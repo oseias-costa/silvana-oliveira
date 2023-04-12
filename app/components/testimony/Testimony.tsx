@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 import { Button } from '../global/Button'
 import { data } from './_data'
@@ -6,6 +6,7 @@ import Quotation from '../../../public/quotation.png'
 import Image from 'next/image'
 
 export default function Testimony() {
+
     const blocks = data.map(item => {
         return(
             <Block key={item.id}>

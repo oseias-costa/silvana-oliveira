@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import styled from 'styled-components'
-import SilvanaPhoto from '../../../public/forwho-final.png'
+import SilvanaPhoto from '../../../public/silvana-forwho1.png'
 import { Button } from '../global/Button'
 import { data } from './_data'
 
@@ -27,7 +27,8 @@ const Container = styled.section`
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-top: 63px;
+    margin-top: 133px;
+    margin-bottom: 133px;
     @media(max-width: 740px){
         flex-direction: column-reverse;
         margin-top: 23px;
@@ -35,11 +36,15 @@ const Container = styled.section`
 `
 
 const Img = styled(Image)`
-    width: 500px;
-    height: 446px;
+    width: 350px;
+    height: 466.66px;
+    margin-left: 80px;
     @media(max-width: 740px){
-        width: 350px;
-        height: 312.5px;
+        width: 250px;
+        height: 333.33px;
+        margin-left: 0px;
+        margin-bottom: 30px;
+        margin-top: 50px;
     }
 `
 

@@ -6,6 +6,7 @@ import ForWho from "./components/forWho/ForWho";
 import Headline from "./components/headline/Headline";
 import Modules from "./components/modules/Modules";
 import Price from "./components/price/Price";
+import Spatula from "./components/spatula/Spatula";
 import Testimony from "./components/testimony/Testimony";
 import Warranty from "./components/warranty/Warranty";
 
@@ -15,6 +16,7 @@ export default function Home() {
       <Headline />
       <ForWho />
       <Benefits />
+      <Spatula />
       <Modules />
       <Testimony />
       <About />

@@ -9,8 +9,8 @@ export default function Price() {
     <Container>
         <h2>Investimento</h2>
         <p>por apenas em 12x de :</p>
-        <h2>R$ 19,95</h2>
-        <p>ou R$ 199,90 à vista</p>
+        <h2>R$ 67,49</h2>
+        <p>ou R$ 674,90 à vista</p>
         <p>Toque no botão abaixo e aproveite essa oportunidade enquanto ela está disponível</p>
         <Button>Quero Aprender Hoje</Button>
         <Img src={Methods} alt='Métodos de Pagamento Curso Silvia Oliveira' />
