@@ -11,11 +11,11 @@ export default function ForWho() {
     })
 
   return (
-    <Container>
+    <Container id='ParaQuem'>
         <Description>
             <h2>Para quem é esse curso</h2>
             <div>{list}</div>
-            <Button>saiba mais</Button>
+            <Button href='#Beneficios'>saiba mais</Button>
         </Description>
         <Img src={SilvanaPhoto} alt='Foto da Artista Silvana Oliveira' />
     </Container>
@@ -32,6 +32,7 @@ const Container = styled.section`
     @media(max-width: 740px){
         flex-direction: column-reverse;
         margin-top: 23px;
+        margin-bottom: 23px;
     }
 `
 

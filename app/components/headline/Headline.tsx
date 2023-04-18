@@ -18,7 +18,7 @@ export default function Headline() {
                 <h1>Pinte lindas  telas impressionistas com o curso on-line</h1>
                 <strong>Silvana Oliveira</strong>
                 <p>Descubra os segredos da pintura com espátula, nos traços soltos e foco na liberdade</p>
-                <Button>Quero Aprender</Button>
+                <Button href='#ParaQuem'>Quero Aprender</Button>
             </Description>
         </div>
     </Container>

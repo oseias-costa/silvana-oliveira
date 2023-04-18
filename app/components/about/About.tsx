@@ -83,8 +83,8 @@ const Description = styled.div`
 `
 
 const ImgArts = styled(Image)`
-    width: 160px;
-    height: 232px;
+    width: 270px;
+    height: 391.53px;
 `
 
 const ArtsContainer = styled.div`

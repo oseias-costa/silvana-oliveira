@@ -13,7 +13,7 @@ export default function Benefits() {
         )
     })
   return (
-    <Container>
+    <Container id='Beneficios'>
         <h2>Quais os Benefícios da pintura</h2>
         <List>{benefitsItems}</List>
     </Container>

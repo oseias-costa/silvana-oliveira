@@ -20,7 +20,7 @@ export default function Testimony() {
     <Container>
         <p>o que os alunos falam do curso</p>
         <Blocks>{blocks}</Blocks>
-        <Button>Quero começar hoje</Button>
+        <Button href=''>Quero começar hoje</Button>
     </Container>
   )
 }
