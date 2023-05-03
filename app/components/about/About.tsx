@@ -15,9 +15,10 @@ export default function About() {
             <Image src={Silvana} alt='Artista Silvana Oliveira' width={350} height={466} />
             <Description>
                 <p>SILVANA OLIVEIRA</p>
-                <p>autodidata, se dedica a pintura há mais 30 anos, em 2006 realizou um grande sonho de ter a própria galeria de artes e a escola de pintura onde ensina alunos de todas as idades a se descobrirem nesse fascinante mundo das artes.</p>
-                <p>em 2012 teve a oportunidade de expor num dos museus mais famosos do mundo, no carrosel do louvre, na frança. também representou seu estado no xvi circuito internacional de arte brasileira que aconteceu na áustria, espanha e Portugal. participou de outras exposições de destaque em berlim (alemanha), madri, barcelona (espanha), toulouse (frança), roma (Itália), Nova Iorque (EUA), montemor-0-novo e lisboa (Portugal) onde recebeu medalha de ouro.</p>
-                <p>Silvana gosta do Impressionismo e da liberdade que a técnica de pintar com espátula proporciona ao fazer trabalhos mais gestuais com traços soltos, camadas grossas de tintas, contrastando luz e sombra provocam uma sensação de naturalidade.</p>
+                <p>Artista plástica autodidata. Há mais de trinta anos atuando no mercado, com Galeria de artes própria e Escola de pintura, tem seus trabalhos vendidos por todo o Brasil, por retratar em telas, histórias de vida e trajetórias de grandes empresas nos trabalhos corporativos, eternizando momentos que cada olhar desejaria viver para sempre. Silvana também desenvolve produtos com arte aplicada que carregam a sua grife Silviê, em peças de vestuário e moda casa.</p>
+                <p>Sua ligação com a arte começou quando ainda menina, pintava alguns retalhos de panos que sua mãe lhe dava. Na adolescência trabalhava como babá, mas já tinha muitos sonhos. De família humilde sem perspectivas de futuro na sua cidade, aos 16 anos mudou-se para Passo Fundo em busca de emprego. Na cidade grande sentia-se muito só, desenhar lhe acalmava e preenchia, então iniciou suas primeiras pinturas em tela, logo começou a expor e vender na loja onde trabalhava como balconista. Sempre dedicada e entusiasmada, recebeu o apoio de amigas que a incentivaram a ministrar aulas de pintura, transformando sua sala em ateliê. </p>
+                <p>Trabalhava durante o dia e dava aulas à noite. Foi também gerente de Joalheria e seguiu essa rotina por longos anos, até sentir que já poderia viver bem e apenas da sua arte. Foi em 2006 que Silvana teve seu grande sonho alcançado, quando inaugurou sua própria Galeria de Artes onde mantém exposição permanente e também a Escola de pintura. Sua carreira internacional conta com exposições de destaque em diversos países como: Barcelona e Madri-Espanha, Berlim-Alemanha, Paris e Toulouse-França, Roma-Itália, Viena-Áustria, Nova Iorque-EUA e em Lisboa-Portugal onde recebeu medalha de ouro.</p>
+                <p>`&quot;` Lute pelos seus sonhos, eles dão colorido e impulsionam a vida, foque nos seus desejos e seja perseverante, um dia você alcançará o que tanto almeja.`&quot;`</p>
             </Description>
         </Artist>
         <p className='subtitle'>conheça algumas Obras da artista</p>
@@ -53,7 +54,7 @@ const Artist = styled.div`
 `
 
 const Description = styled.div`
-    max-width: 450px;
+    max-width: 650px;
     padding-left: 63px;
 
     p:nth-child(1){
@@ -72,6 +73,11 @@ const Description = styled.div`
     }
 
     p:nth-child(4){
+        font-size: 10pt;
+        padding-top: 15px;
+    }
+
+    p:nth-child(5){
         font-size: 10pt;
         padding-top: 15px;
     }
