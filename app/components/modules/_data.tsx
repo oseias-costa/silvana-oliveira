@@ -2,6 +2,8 @@ import Support from '../../../public/support.png'
 import Design from '../../../public/design.png'
 import Palette from '../../../public/palette.png'
 import Materials from '../../../public/materials.png'
+import Geranios from '../../../public/geranios.png'
+import Girassois from '../../../public/girassois.png'
 
 export const data = [
     {
@@ -32,13 +34,13 @@ export const data = [
         id: 5,
         title: 'Pintura do vaso com Gerânios',
         text: [],
-        image: Support,
+        image: Geranios,
     },
     {
         id: 6,
         title: 'Pintura do vaso com Girassóis',
         text: [],
-        image: Support,
+        image: Girassois,
     },
     {
         id: 7,

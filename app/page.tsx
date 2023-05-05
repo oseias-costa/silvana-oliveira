@@ -8,12 +8,14 @@ import Modules from "./components/modules/Modules";
 import Price from "./components/price/Price";
 import Spatula from "./components/spatula/Spatula";
 import Testimony from "./components/testimony/Testimony";
+import Video from "./components/video/Video";
 import Warranty from "./components/warranty/Warranty";
 
 export default function Home() {
   return (
     <Container>
       <Headline />
+      <Video />
       <ForWho />
       <Benefits />
       <Spatula />
