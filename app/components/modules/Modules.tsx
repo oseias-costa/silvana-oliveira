@@ -44,7 +44,7 @@ const Module = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 320px;
+    height: 482.52px;
     margin: 10px;
     max-width: 250px;
     .description {
@@ -75,7 +75,7 @@ const Learn = styled.div`
 
 const Img = styled(Image)`
     width: 250px;
-    height: 166.66px;
+    height: 331.52px;
     padding-top: 15px;
     margin-bottom: 0;
 `

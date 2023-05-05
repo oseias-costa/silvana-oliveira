@@ -46,7 +46,7 @@ export const data = [
         id: 7,
         title: 'Pintura do vaso com Hortênsias ',
         text: [],
-        image: Support,
+        image: Girassois,
     },
     
 ]
