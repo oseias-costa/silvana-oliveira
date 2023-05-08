@@ -4,6 +4,7 @@ import Palette from '../../../public/palette.png'
 import Materials from '../../../public/materials.png'
 import Geranios from '../../../public/geranios.png'
 import Girassois from '../../../public/girassois.png'
+import Hortensias from '../../../public/hortensias.png'
 
 export const data = [
     {
@@ -46,7 +47,7 @@ export const data = [
         id: 7,
         title: 'Pintura do vaso com Hortênsias ',
         text: [],
-        image: Girassois,
+        image: Hortensias,
     },
     
 ]
