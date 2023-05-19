@@ -11,7 +11,8 @@ export default function Video() {
         // frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         // allowfullscreen
-      ></Iframe>
+        ></Iframe>
+        <h2>Assista o Vídeo clicando acima</h2>
     </Container>
     
   )
@@ -20,7 +21,13 @@ export default function Video() {
 const Container = styled.section`
     padding-top: 110px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+
+    h2 {
+      padding-top: 20px;
+    }
 
     @media(max-width: 740px) {
         padding-top: 65px;

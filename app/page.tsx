@@ -2,6 +2,7 @@
 import styled from "styled-components"
 import About from "./components/about/About";
 import Benefits from "./components/benefits/Benefits";
+import Faq from "./components/faq/Faq";
 import ForWho from "./components/forWho/ForWho";
 import Headline from "./components/headline/Headline";
 import Modules from "./components/modules/Modules";
@@ -24,6 +25,7 @@ export default function Home() {
       <About />
       <Price />
       <Warranty />
+      <Faq />
     </Container>
   )
 }
